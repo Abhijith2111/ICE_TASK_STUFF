@@ -1876,3 +1876,746 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2025.09.02-20.51.42:363][815]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4709.676270
 [2025.09.02-20.51.43:363][818]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.09.02-20.51.43:363][818]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4710.342773, Update Interval: 356.306641
+[2025.09.02-20.53.14:031][245]LogSlate: Window 'BP_Player' being destroyed
+[2025.09.02-20.53.14:041][245]LogSlate: Window 'BP_Player' being destroyed
+[2025.09.02-20.53.14:074][245]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.09.02-20.53.14:074][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.02-20.53.14:138][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.09.02-20.58.18:658][808]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5105.969238
+[2025.09.02-20.58.19:658][811]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.02-20.58.19:658][811]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5106.635742, Update Interval: 328.475586
+[2025.09.02-21.03.31:358][717]LogFab: Display: Logging in using persist
+[2025.09.02-21.03.31:360][717]LogEOSSDK: Warning: LogEOSAuth: No existing persistent auth credentials were found for automatic login.
+[2025.09.02-21.03.31:557][717]LogWebBrowser: Loaded CEF3 version 90.6.7.2358 from C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/ThirdParty/CEF3/Win64/
+[2025.09.02-21.03.31:577][717]LogCEFBrowser: CEF GPU acceleration enabled
+[2025.09.02-21.03.31:930][717]LogFab: Error: Login failed - error code: EOS_InvalidAuth
+[2025.09.02-21.03.31:930][717]LogFab: Display: Logging in using exchange code
+[2025.09.02-21.03.31:930][717]LogFab: Display: Reading exchange code from commandline
+[2025.09.02-21.03.32:965][778]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[OAuth], OperationName=[TokenGrantv2], Url=[<Redacted>], HttpStatus=[400], ErrorCode=[errors.com.epicgames.account.oauth.exchange_code_not_found], NumericErrorCode=[18057], ErrorMessage=[Sorry the exchange code you supplied was not found. It is possible that it was no longer valid], CorrId=[EOS-oo527HRlpUqd80uVVjQpoA-Bcw2rugo2kaiNmk73FwA6Q]
+[2025.09.02-21.03.32:965][778]LogEOSSDK: LogEOSAuth: FTokenGrantRequestTask: Received ResultCode: EOS_Auth_ExchangeCodeNotFound
+[2025.09.02-21.03.32:992][780]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received EOS_Auth_ExchangeCodeNotFound
+[2025.09.02-21.03.33:010][781]LogFab: Error: Login failed - error code: EOS_Auth_ExchangeCodeNotFound
+[2025.09.02-21.03.35:387][923]LogEOSSDK: Error: LogEOS: EOS_Auth_CopyUserAuthToken - One or more parameters are null
+[2025.09.02-21.03.35:387][923]LogFab: Error: User auth token is invalid - unable to get auth token
+[2025.09.02-21.04.02:487][548]LogFab: Display: Logging in using account portal
+[2025.09.02-21.04.02:487][548]LogEOSSDK: LogEOSAuth: BeginDesktopCrossplayLogin: Desktop crossplay can be used with this login type
+[2025.09.02-21.04.02:487][548]LogEOSSDK: Warning: LogEOSAuth: BeginDesktopCrossplayLogin: Desktop crossplay is not ready: EOS_DesktopCrossplay_ApplicationNotBootstrapped
+[2025.09.02-21.04.02:487][548]LogEOSSDK: LogEOSAuth: BeginDesktopCrossplayLogin: Desktop crossplay is not required for login
+[2025.09.02-21.04.02:867][571]LogEOSSDK: LogEOSAuth: GenerateUserAuthByDeviceCode: Received FUserAuthToken
+[2025.09.02-21.04.02:884][572]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Device auth to be continued at: <Redacted>
+[2025.09.02-21.04.02:885][572]LogEOSSDK: Warning: LogEOSAuth: UserAuthGenerated: Account Portal overlay failed to load for device auth continuation; falling back to browser based flow
+[2025.09.02-21.04.02:885][572]LogEOSSDK: LogEOSAuth: LaunchAccountPortalWithPlatformBrowser: Launching with platform browser: <Redacted>
+[2025.09.02-21.04.02:892][572]LogEOSSDK: LogEOSAuth: LaunchAccountPortalWithPlatformBrowser: Successfully launched with platform browser
+[2025.09.02-21.04.03:437][586]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[OAuth], OperationName=[TokenGrantv2], Url=[<Redacted>], HttpStatus=[400], ErrorCode=[errors.com.epicgames.account.oauth.authorization_pending], NumericErrorCode=[1012], ErrorMessage=[The authorization server request is still pending as the end user has yet to visit and enter the verification code.], CorrId=[EOS-oo527HRlpUqd80uVVjQpoA-BP_GlEjOQ0WGnV6ytbrIbQ]
+[2025.09.02-21.04.14:770][620]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: b6d...f90 Access[Expires: 2025.09.02-23.04.17 Remaining: 7200.43] Refresh[Expires: 2026-03-01T21:04:17.434Z Remaining: 15552000.43] State: Valid
+[2025.09.02-21.04.15:103][621]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2025.09.02-21.04.16:107][624]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2025.09.02-21.04.16:107][624]LogFab: Display: User logged in
+[2025.09.02-21.04.16:107][624]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2025.09.02-21.04.16:771][626]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-oo527HRlpUqd80uVVjQpoA-epC0t0km7kuPgYYgN9MyjA]
+[2025.09.02-21.04.46:577][450]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5493.878418
+[2025.09.02-21.04.46:894][469]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.02-21.04.46:894][469]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5494.178711, Update Interval: 345.775940
+[2025.09.02-21.05.44:961][951]LogFab: Display: Asset Type = unreal-engine
+[2025.09.02-21.05.44:961][951]LogFab: Display: Is Quixel = 0
+[2025.09.02-21.05.44:961][951]LogFab: Display: Base Url https://download.epicgames.com/Builds/Rocket/Automated/SciFiCrac58207be2950V1/CloudDir,https://epicgames-download1.akamaized.net/Builds/Rocket/Automated/SciFiCrac58207be2950V1/CloudDir,https://fastly-download.epicgames.com/Builds/Rocket/Automated/SciFiCrac58207be2950V1/CloudDir,https://cloudflare.epicgamescdn.com/Builds/Rocket/Automated/SciFiCrac58207be2950V1/CloudDir
+[2025.09.02-21.05.49:981][232]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2025.09.02-21.05.49:981][232]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2025.09.02-21.05.49:981][232]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/Developers/abhij/Collections/' because it could not be accessed. Aborting watch request...
+[2025.09.02-21.05.52:915][401]LogSlate: Window 'Fab' being destroyed
+[2025.09.02-21.05.52:926][401]LogSlate: Window 'Fab' being destroyed
+[2025.09.02-21.05.54:415][490]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2025.09.02-21.05.54:415][490]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5/listings/79552e5e-ad5d-4df9-b27a-f2f69dfe3271.
+[2025.09.02-21.06.15:472][731]LogStreaming: Display: FlushAsyncLoading(594): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.02-21.06.15:494][731]LogStaticMesh: Display: Building static mesh SM_Box_5 (Required Memory Estimate: 0.984155 MB)...
+[2025.09.02-21.06.15:525][731]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_1_A_Metallic.T_Box_1_A_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.15:779][741]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_1_B_BaseColor.T_Box_1_B_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.15:856][744]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5
+[2025.09.02-21.06.15:856][744]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5
+[2025.09.02-21.06.15:861][744]LogActorFactory: Actor Factory spawned StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_0
+[2025.09.02-21.06.15:877][744]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/SciFi_Props/Models/SM_Box_5) ...
+[2025.09.02-21.06.15:906][744]LogStaticMesh: Built static mesh [0.41s] /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5
+[2025.09.02-21.06.15:925][744]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.09.02-21.06.16:147][749]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_5_BaseColor.T_Box_5_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.16:285][755]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_5_Emissive.T_Box_5_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.16:626][771]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_5_Metallic.T_Box_5_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.16:945][786]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_5_Roughness.T_Box_5_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.16:995][788]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_5_Normal.T_Box_5_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.17:441][810]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2025.09.02-21.06.17:445][810]LogEditorActor: Deleted 0 Actors (0.055 secs)
+[2025.09.02-21.06.17:453][810]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5
+[2025.09.02-21.06.17:453][810]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5
+[2025.09.02-21.06.17:460][810]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_8_Metallic.T_Box_8_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.17:460][810]LogActorFactory: Actor Factory spawned StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_047C16A932E3438B02_1193073071
+[2025.09.02-21.06.17:706][810]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_8_Normal.T_Box_8_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.17:711][810]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_8_Roughness.T_Box_8_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: ================================================
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Total job queries 440, among them cache hits 25 (5.68%), DDC hits 335 (76.14%), Duplicates 70 (15.91%)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Tracking 345 distinct input hashes that result in 249 distinct outputs (72.17%)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: RAM used: 3,34 MiB of 819,20 MiB budget. Usage: 0.41%
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Shaders Compiled: 10
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100%)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Average time worker was idle: 5386.60 s
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.05 s
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Job execution time: average 2.60 s, max 3.83 s
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Job life time (pending + execution): average 2.64 s, max 3.88
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Shader code size: total 76,637 KiB, numShaders 10, average 7,663 KiB, min 5,562 KiB, max 12,246 KiB
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.94 s
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Average processing rate: 1.68 jobs/sec
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Total thread time: 9,292 s
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Total thread preprocess time: 8,807 s
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Percentage time preprocessing: 94.78%
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Effective parallelization: 1.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.195562
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.36 sec, max 1.36 sec, min 1.36 sec)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 1.05 sec, max 1.19 sec, min 0.79 sec)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.98 sec, max 0.98 sec, min 0.98 sec)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.86 sec, max 0.98 sec, min 0.62 sec)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 33.88% of total time (compiled    3 times, average 1.05 sec, max 1.19 sec, min 0.79 sec)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.78% of total time (compiled    3 times, average 0.86 sec, max 0.98 sec, min 0.62 sec)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 14.60% of total time (compiled    1 times, average 1.36 sec, max 1.36 sec, min 1.36 sec)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display:                                                  FHitProxyVS - 10.56% of total time (compiled    1 times, average 0.98 sec, max 0.98 sec, min 0.98 sec)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display:                                                 FLumenCardPS - 6.76% of total time (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: === Material stats ===
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Materials Translated:    143
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Material Total Translate Time: 0.14 s
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Material Translation Only: 0.05 s (32%)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: Material Cache Hits: 17 (12%)
+[2025.09.02-21.06.21:680][ 11]LogShaderCompilers: Display: ================================================
+[2025.09.02-21.06.28:154][392]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_047C16A932E3438B02_1193073071.StaticMeshComponent0.
+[2025.09.02-21.06.28:387][406]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_047C16A932E3438B02_1193073071.StaticMeshComponent0.
+[2025.09.02-21.06.59:213][165]LogStreaming: Display: FlushAsyncLoading(595): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.02-21.06.59:218][165]LogStaticMesh: Display: Building static mesh SM_Box_7 (Required Memory Estimate: 3.776255 MB)...
+[2025.09.02-21.06.59:377][169]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_7_BaseColor.T_Box_7_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.59:438][171]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_7.SM_Box_7
+[2025.09.02-21.06.59:438][171]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_7.SM_Box_7
+[2025.09.02-21.06.59:440][171]LogActorFactory: Actor Factory spawned StaticMesh /Game/SciFi_Props/Models/SM_Box_7.SM_Box_7 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_1
+[2025.09.02-21.06.59:456][171]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/SciFi_Props/Models/SM_Box_7) ...
+[2025.09.02-21.06.59:469][171]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_7_Emissive.T_Box_7_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.59:720][171]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_7_Metallic.T_Box_7_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.59:906][171]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_7_Roughness.T_Box_7_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.06.59:976][171]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_7_Normal.T_Box_7_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.07.00:245][171]LogStaticMesh: Built static mesh [1.03s] /Game/SciFi_Props/Models/SM_Box_7.SM_Box_7
+[2025.09.02-21.07.01:325][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.09.02-21.07.01:329][229]LogEditorActor: Deleted 0 Actors (0.035 secs)
+[2025.09.02-21.07.01:336][229]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_7.SM_Box_7
+[2025.09.02-21.07.01:336][229]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_7.SM_Box_7
+[2025.09.02-21.07.01:339][229]LogActorFactory: Actor Factory spawned StaticMesh /Game/SciFi_Props/Models/SM_Box_7.SM_Box_7 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_047C16A932E3438B02_1236955072
+[2025.09.02-21.07.16:188][ 94]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5
+[2025.09.02-21.07.16:188][ 94]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5
+[2025.09.02-21.07.16:189][ 94]LogActorFactory: Actor Factory spawned StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_2
+[2025.09.02-21.07.17:699][182]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.09.02-21.07.17:704][182]LogEditorActor: Deleted 0 Actors (0.031 secs)
+[2025.09.02-21.07.17:708][182]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5
+[2025.09.02-21.07.17:708][182]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5
+[2025.09.02-21.07.17:713][182]LogActorFactory: Actor Factory spawned StaticMesh /Game/SciFi_Props/Models/SM_Box_5.SM_Box_5 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_047C16A932E3438B02_1253327073
+[2025.09.02-21.07.40:688][522]Cmd: EDIT COPY
+[2025.09.02-21.07.41:130][548]Cmd: EDIT PASTE
+[2025.09.02-21.08.02:387][773]Cmd: EDIT COPY
+[2025.09.02-21.08.02:599][785]Cmd: EDIT PASTE
+[2025.09.02-21.08.14:240][470]Cmd: EDIT COPY
+[2025.09.02-21.08.14:606][492]Cmd: EDIT PASTE
+[2025.09.02-21.08.50:106][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.09.02-21.08.50:124][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/YR/T68ANS0IBH4PSS4AHGVVIK_Auto2
+[2025.09.02-21.08.50:124][249]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T68ANS0IBH4PSS4AHGVVIK_Auto2D426BB6D4E5B1067ADB51A973585D1F1.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/YR/T68ANS0IBH4PSS4AHGVVIK_Auto2.uasset'
+[2025.09.02-21.08.50:132][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/47/28FWBLKHJLA9X1A1X7KY31_Auto2
+[2025.09.02-21.08.50:132][249]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/28FWBLKHJLA9X1A1X7KY31_Auto2F68C9E7442DDA8E30368BBB0F2C72115.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/47/28FWBLKHJLA9X1A1X7KY31_Auto2.uasset'
+[2025.09.02-21.08.50:140][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/ZM/YK1YIPYPPH5X7VMLYIDC1L_Auto2
+[2025.09.02-21.08.50:140][249]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/YK1YIPYPPH5X7VMLYIDC1L_Auto2754DB7684A08AA5293A0C6B9F9990961.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/ZM/YK1YIPYPPH5X7VMLYIDC1L_Auto2.uasset'
+[2025.09.02-21.08.50:149][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/58/9CDGAMSVPNYZIY9OAT0EY5_Auto2
+[2025.09.02-21.08.50:149][249]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/9CDGAMSVPNYZIY9OAT0EY5_Auto25E18441140D4F9AD60FF619C15A0E1F3.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/58/9CDGAMSVPNYZIY9OAT0EY5_Auto2.uasset'
+[2025.09.02-21.08.50:157][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/1H/ONOYOUYM9ACL1WRLYKR3VZ_Auto2
+[2025.09.02-21.08.50:157][249]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/ONOYOUYM9ACL1WRLYKR3VZ_Auto26B120A824912724D93D45BBAE9EA5331.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/1H/ONOYOUYM9ACL1WRLYKR3VZ_Auto2.uasset'
+[2025.09.02-21.08.50:164][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/P6/0UBGTEMRHB8EWSQTLUMLZL_Auto2
+[2025.09.02-21.08.50:164][249]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/0UBGTEMRHB8EWSQTLUMLZL_Auto213A2377647F69FB5AB80C9B5EF01EDCA.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/P6/0UBGTEMRHB8EWSQTLUMLZL_Auto2.uasset'
+[2025.09.02-21.08.50:165][249]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.085
+[2025.09.02-21.08.50:165][249]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.085
+[2025.09.02-21.10.17:272][657]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.02-21.10.17:282][657]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.09.02-21.10.17:282][657]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.09.02-21.10.17:285][657]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 2.870 ms (total: 10.899 ms)
+[2025.09.02-21.10.17:285][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.02-21.10.17:285][657]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2025.09.02-21.10.17:288][657]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.09.02-21.10.17:309][658]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.09.02-21.10.17:318][658]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.09.02-21.10.17:320][658]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.492 ms (total: 11.341 ms)
+[2025.09.02-21.10.17:320][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010704s)
+[2025.09.02-21.10.17:320][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.010811s)
+[2025.09.02-21.10.17:354][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.09.02-21.10.17:358][658]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.09.02-21.10.17:361][658]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.09.02-21.10.17:361][658]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.02-21.10.17:361][658]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.02-21.10.17:361][658]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.09.02-21.10.17:363][658]LogWorldPartition: Display: WorldPartition initialize took 1.969 ms (total: 507.463 ms)
+[2025.09.02-21.10.17:363][658]LogPlayLevel: PIE: World Init took: (0.005051s)
+[2025.09.02-21.10.17:364][658]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.09.02-21.10.17:364][658]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.02-21.10.17:364][658]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.02-21.10.17:364][658]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.02-21.10.17:364][658]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.02-21.10.17:364][658]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.02-21.10.17:364][658]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.02-21.10.17:364][658]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.02-21.10.17:364][658]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.02-21.10.17:364][658]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.02-21.10.17:364][658]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.02-21.10.17:364][658]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.02-21.10.17:367][658]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.02-21.10.17:413][658]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Sound Device)
+[2025.09.02-21.10.17:417][658]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.02-21.10.17:417][658]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.02-21.10.17:417][658]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.02-21.10.17:418][658]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.09.02-21.10.17:418][658]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.09.02-21.10.17:420][658]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.09.02-21.10.17:420][658]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.09.02-21.10.17:420][658]LogInit: FAudioDevice initialized with ID 9.
+[2025.09.02-21.10.17:420][658]LogAudio: Display: Audio Device (ID: 9) registered with world 'Lvl_ThirdPerson'.
+[2025.09.02-21.10.17:420][658]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.02-21.10.17:436][658]LogLoad: Game class is 'BP_GameMode_C'
+[2025.09.02-21.10.17:439][658]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.09.02-23.10.17
+[2025.09.02-21.10.17:439][658]LogWorld: Bringing up level for play took: 0.002656
+[2025.09.02-21.10.17:442][658]PIE: Server logged in
+[2025.09.02-21.10.17:445][658]PIE: Play in editor total start time 0,163 seconds.
+[2025.09.02-21.10.17:499][659]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.02-21.10.22:455][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.02-21.10.22:455][939]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.09.02-21.10.22:455][939]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.09.02-21.10.22:456][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.02-21.10.22:456][939]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.09.02-21.10.22:458][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.02-21.10.22:464][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.02-21.10.22:494][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.02-21.10.22:494][939]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.02-21.10.22:494][939]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.09.02-21.10.22:496][939]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.09.02-21.10.22:505][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.09.02-21.10.22:577][940]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.09.02-21.10.29:248][303]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.09.02-21.10.29:269][303]LogContentBrowser: Creating deferred item: NewFolder
+[2025.09.02-21.10.29:291][304]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.09.02-21.10.37:227][780]LogContentBrowser: Attempting asset rename: NewFolder -> IceTaks2
+[2025.09.02-21.10.37:228][780]LogContentBrowser: End creating deferred item NewFolder
+[2025.09.02-21.10.44:144][193]Cmd: EDIT CUT
+[2025.09.02-21.10.44:152][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.09.02-21.10.44:184][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.09.02-21.10.44:187][193]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2025.09.02-21.10.57:314][793]LogSlate: Window 'Loading Many Assets' being destroyed
+[2025.09.02-21.10.57:360][793]Message dialog closed, result: Yes, title: Loading Many Assets, text: About to load 54 assets. Are you sure you want to continue?
+[2025.09.02-21.10.57:412][793]LogStreaming: Display: FlushAsyncLoading(596): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.02-21.10.57:430][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Maps/Lvl_Showroom_BuiltData.Lvl_Showroom_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.416656 MB), EncodeSpeed: Fast
+[2025.09.02-21.10.57:430][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Maps/Lvl_Showroom_BuiltData.Lvl_Showroom_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 31.166582 MB), EncodeSpeed: Fast
+[2025.09.02-21.10.57:447][793]LogStaticMesh: Display: Building static mesh SM_Box_4 (Required Memory Estimate: 5.807182 MB)...
+[2025.09.02-21.10.57:456][793]LogStaticMesh: Display: Building static mesh SM_Box_1 (Required Memory Estimate: 30.628398 MB)...
+[2025.09.02-21.10.57:456][793]LogStaticMesh: Display: Building static mesh SM_Box_2 (Required Memory Estimate: 6.274663 MB)...
+[2025.09.02-21.10.57:456][793]LogStaticMesh: Display: Building static mesh SM_Box_3 (Required Memory Estimate: 10.32565 MB)...
+[2025.09.02-21.10.57:458][793]LogStaticMesh: Display: Building static mesh SM_Box_6 (Required Memory Estimate: 4.901875 MB)...
+[2025.09.02-21.10.57:458][793]LogStaticMesh: Display: Building static mesh SM_Box_8 (Required Memory Estimate: 6.055119 MB)...
+[2025.09.02-21.10.57:473][793]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Showroom
+[2025.09.02-21.10.57:731][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_4_BaseColor.T_Box_4_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.10.57:954][793]LogStaticMesh: Display: Building static mesh SM_Box_9 (Required Memory Estimate: 0.839432 MB)...
+[2025.09.02-21.10.57:970][793]LogStaticMesh: Display: Waiting for static meshes to be ready 0/7 (/Game/SciFi_Props/Models/SM_Box_3) ...
+[2025.09.02-21.10.58:191][793]LogStaticMesh: Built static mesh [0.24s] /Game/SciFi_Props/Models/SM_Box_9.SM_Box_9
+[2025.09.02-21.10.58:412][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_4_Emissive.T_Box_4_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.10.58:774][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_4_Metallic.T_Box_4_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.10.59:171][793]LogStaticMesh: Built static mesh [1.72s] /Game/SciFi_Props/Models/SM_Box_4.SM_Box_4
+[2025.09.02-21.10.59:276][793]LogStaticMesh: Built static mesh [1.82s] /Game/SciFi_Props/Models/SM_Box_6.SM_Box_6
+[2025.09.02-21.10.59:341][793]LogStaticMesh: Built static mesh [1.88s] /Game/SciFi_Props/Models/SM_Box_2.SM_Box_2
+[2025.09.02-21.10.59:348][793]LogStaticMesh: Built static mesh [1.89s] /Game/SciFi_Props/Models/SM_Box_8.SM_Box_8
+[2025.09.02-21.10.59:358][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_4_Normal.T_Box_4_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.10.59:617][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_4_Roughness.T_Box_4_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.10.59:944][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_1_A_Emissive.T_Box_1_A_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.00:168][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_1_A_Roughness.T_Box_1_A_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.00:397][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_1_A_Normal.T_Box_1_A_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.00:626][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_1_BaseColor.T_Box_1_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.00:635][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_1_B_Metallic.T_Box_1_B_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.00:667][793]LogStaticMesh: Built static mesh [3.21s] /Game/SciFi_Props/Models/SM_Box_3.SM_Box_3
+[2025.09.02-21.11.00:730][793]LogStaticMesh: Display: Waiting for static meshes to be ready 6/7 (/Game/SciFi_Props/Models/SM_Box_1) ...
+[2025.09.02-21.11.01:063][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_1_B_Roughness.T_Box_1_B_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.01:280][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_1_B_Normal.T_Box_1_B_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.01:475][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_2_BaseColor.T_Box_2_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.01:685][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_2_Emissive.T_Box_2_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.01:730][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_2_Metallic.T_Box_2_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.02:084][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_2_Normal.T_Box_2_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.02:181][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_2_Roughness.T_Box_2_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.02:503][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_3_BaseColor.T_Box_3_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.02:542][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_3_Emissive.T_Box_3_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.02:833][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_3_Metallic.T_Box_3_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.03:078][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_3_Normal.T_Box_3_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.03:083][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_3_Roughness.T_Box_3_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.03:542][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_6_Emissive.T_Box_6_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.03:637][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_6_BaseColor.T_Box_6_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.03:905][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_6_Metallic.T_Box_6_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.04:236][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_6_Normal.T_Box_6_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.04:242][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_6_Roughness.T_Box_6_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.04:688][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_8_Emissive.T_Box_8_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.04:747][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_8_BaseColor.T_Box_8_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.04:873][793]LogStaticMesh: Built static mesh [7.42s] /Game/SciFi_Props/Models/SM_Box_1.SM_Box_1
+[2025.09.02-21.11.04:951][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_9__Metallic.T_Box_9__Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.05:408][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_9_BaseColor.T_Box_9_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.05:690][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_9_Emissive.T_Box_9_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.05:823][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_9_Normal.T_Box_9_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.05:952][793]LogTexture: Display: Building textures: /Game/SciFi_Props/Materials/Textures/T_Box_9_Roughness.T_Box_9_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.06:328][793]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.02-21.11.06:372][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.09.02-21.11.06:396][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Maps/Lvl_Showroom
+[2025.09.02-21.11.06:396][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Lvl_ShowroomF4560B994F02C81606FC7684CEA716C7.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Maps/Lvl_Showroom.umap'
+[2025.09.02-21.11.06:402][793]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.02-21.11.06:403][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Maps/Lvl_Showroom_BuiltData] ([1] browsable assets)...
+[2025.09.02-21.11.06:403][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Maps/Lvl_Showroom_BuiltData]
+[2025.09.02-21.11.06:424][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Maps/Lvl_Showroom_BuiltData
+[2025.09.02-21.11.06:424][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Lvl_Showroom_BuiltDataC38C72BD491CCCEAC8DE67B471CE94FC.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Maps/Lvl_Showroom_BuiltData.uasset'
+[2025.09.02-21.11.06:425][793]LogFileHelpers: InternalPromptForCheckoutAndSave took 22.124 ms (total: 350.374 ms)
+[2025.09.02-21.11.06:426][793]LogFileHelpers: Saving map 'Lvl_Showroom' took 0.097
+[2025.09.02-21.11.06:426][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Maps/Lvl_Showroom_BuiltData] ([1] browsable assets)...
+[2025.09.02-21.11.06:426][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Maps/Lvl_Showroom_BuiltData]
+[2025.09.02-21.11.06:438][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Maps/Lvl_Showroom_BuiltData
+[2025.09.02-21.11.06:438][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Lvl_Showroom_BuiltData0DCAC06149E31EB13D3082AA098EFE2A.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Maps/Lvl_Showroom_BuiltData.uasset'
+[2025.09.02-21.11.06:440][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Normal] ([1] browsable assets)...
+[2025.09.02-21.11.06:440][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Normal]
+[2025.09.02-21.11.06:689][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Normal
+[2025.09.02-21.11.06:689][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_7_NormalFFE061F64766FA55341234871BDCB6FE.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Normal.uasset'
+[2025.09.02-21.11.06:690][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_5] ([1] browsable assets)...
+[2025.09.02-21.11.06:690][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_5]
+[2025.09.02-21.11.06:795][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Models/SM_Box_5
+[2025.09.02-21.11.06:795][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SM_Box_5EDAEE88B46F3AEDC462A3DB67BC15568.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Models/SM_Box_5.uasset'
+[2025.09.02-21.11.06:796][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_5] ([1] browsable assets)...
+[2025.09.02-21.11.06:796][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_5]
+[2025.09.02-21.11.06:804][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_5
+[2025.09.02-21.11.06:804][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/MI_Box_5FC3E55924B820353F8F0CCBE2457CFC0.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/MI_Box_5.uasset'
+[2025.09.02-21.11.06:805][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/M_Master] ([1] browsable assets)...
+[2025.09.02-21.11.06:805][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/M_Master]
+[2025.09.02-21.11.06:814][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/M_Master
+[2025.09.02-21.11.06:814][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/M_Master3CBC0A00498CFC9A811F79B3F34FF5C9.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/M_Master.uasset'
+[2025.09.02-21.11.06:815][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Roughness] ([1] browsable assets)...
+[2025.09.02-21.11.06:815][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Roughness]
+[2025.09.02-21.11.06:874][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Roughness
+[2025.09.02-21.11.06:874][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_8_Roughness9FF4375F4E2BDDD9AA111B96893DB8E7.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Roughness.uasset'
+[2025.09.02-21.11.06:875][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Normal] ([1] browsable assets)...
+[2025.09.02-21.11.06:875][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Normal]
+[2025.09.02-21.11.07:091][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Normal
+[2025.09.02-21.11.07:091][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_8_Normal1021BCF140F94527378EB7B23D1A5383.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Normal.uasset'
+[2025.09.02-21.11.07:107][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Metallic] ([1] browsable assets)...
+[2025.09.02-21.11.07:107][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Metallic]
+[2025.09.02-21.11.07:462][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Metallic
+[2025.09.02-21.11.07:462][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_8_Metallic21BFD7AC467233A2DDC95FAC355716DA.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Metallic.uasset'
+[2025.09.02-21.11.07:465][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Roughness] ([1] browsable assets)...
+[2025.09.02-21.11.07:465][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Roughness]
+[2025.09.02-21.11.07:566][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Roughness
+[2025.09.02-21.11.07:567][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_5_RoughnessD70D04DF454DFF97613DFDBBABD0E742.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Roughness.uasset'
+[2025.09.02-21.11.07:568][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Normal] ([1] browsable assets)...
+[2025.09.02-21.11.07:568][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Normal]
+[2025.09.02-21.11.07:785][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Normal
+[2025.09.02-21.11.07:785][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_5_Normal7B07D8E141D85B2138F613BEE3C2AAAC.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Normal.uasset'
+[2025.09.02-21.11.07:786][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Metallic] ([1] browsable assets)...
+[2025.09.02-21.11.07:786][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Metallic]
+[2025.09.02-21.11.08:145][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Metallic
+[2025.09.02-21.11.08:145][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_5_Metallic6B9E41E8460CD0FBB4A564BE0D0984AF.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Metallic.uasset'
+[2025.09.02-21.11.08:147][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Emissive] ([1] browsable assets)...
+[2025.09.02-21.11.08:148][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Emissive]
+[2025.09.02-21.11.08:311][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Emissive
+[2025.09.02-21.11.08:311][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_5_Emissive0B563F9F462C10537DB41196E3AA11C2.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Emissive.uasset'
+[2025.09.02-21.11.08:312][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_BaseColor] ([1] browsable assets)...
+[2025.09.02-21.11.08:312][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_BaseColor]
+[2025.09.02-21.11.08:517][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_BaseColor
+[2025.09.02-21.11.08:517][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_5_BaseColorC08874DB4249D2C1692E5E8723BE3D6A.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_BaseColor.uasset'
+[2025.09.02-21.11.08:519][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_BaseColor] ([1] browsable assets)...
+[2025.09.02-21.11.08:520][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_BaseColor]
+[2025.09.02-21.11.08:696][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_BaseColor
+[2025.09.02-21.11.08:696][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_1_B_BaseColor497C884D46F92D56E267108E2D9DFB17.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_BaseColor.uasset'
+[2025.09.02-21.11.08:732][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Metallic] ([1] browsable assets)...
+[2025.09.02-21.11.08:732][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Metallic]
+[2025.09.02-21.11.08:787][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Metallic
+[2025.09.02-21.11.08:787][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_1_A_MetallicE1C2C20947EC3D6F6B842896DFAA0324.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Metallic.uasset'
+[2025.09.02-21.11.08:788][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Metallic] ([1] browsable assets)...
+[2025.09.02-21.11.08:788][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Metallic]
+[2025.09.02-21.11.08:840][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Metallic
+[2025.09.02-21.11.08:840][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_7_Metallic24F671974A52F163EFE832B7E4A51FD7.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Metallic.uasset'
+[2025.09.02-21.11.08:841][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Emissive] ([1] browsable assets)...
+[2025.09.02-21.11.08:841][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Emissive]
+[2025.09.02-21.11.09:062][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Emissive
+[2025.09.02-21.11.09:062][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_7_EmissiveC8537BC84BD0B820C28A95B3DE09003B.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Emissive.uasset'
+[2025.09.02-21.11.09:064][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_BaseColor] ([1] browsable assets)...
+[2025.09.02-21.11.09:064][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_BaseColor]
+[2025.09.02-21.11.09:244][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_BaseColor
+[2025.09.02-21.11.09:244][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_7_BaseColorDEF87A0C46E2C67148DB5CBD37BFB751.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_BaseColor.uasset'
+[2025.09.02-21.11.09:246][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_7] ([1] browsable assets)...
+[2025.09.02-21.11.09:246][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_7]
+[2025.09.02-21.11.09:354][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Models/SM_Box_7
+[2025.09.02-21.11.09:354][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SM_Box_7AA039FB440DC43CAB60C278A4091B2A9.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Models/SM_Box_7.uasset'
+[2025.09.02-21.11.09:355][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_7] ([1] browsable assets)...
+[2025.09.02-21.11.09:355][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_7]
+[2025.09.02-21.11.09:364][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_7
+[2025.09.02-21.11.09:364][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/MI_Box_782C115094BD0CCEECE1206A412171E2E.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/MI_Box_7.uasset'
+[2025.09.02-21.11.09:365][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Roughness] ([1] browsable assets)...
+[2025.09.02-21.11.09:365][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Roughness]
+[2025.09.02-21.11.09:419][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Roughness
+[2025.09.02-21.11.09:419][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_7_Roughness3FEC611942ED96231B496CAA768A6D70.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Roughness.uasset'
+[2025.09.02-21.11.09:421][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/M_Floor] ([1] browsable assets)...
+[2025.09.02-21.11.09:421][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/M_Floor]
+[2025.09.02-21.11.09:429][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/M_Floor
+[2025.09.02-21.11.09:429][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/M_FloorA97C9E1E483A7309ED5C6BBAE116A3EE.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/M_Floor.uasset'
+[2025.09.02-21.11.09:430][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/M_Master_2] ([1] browsable assets)...
+[2025.09.02-21.11.09:430][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/M_Master_2]
+[2025.09.02-21.11.09:438][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/M_Master_2
+[2025.09.02-21.11.09:438][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/M_Master_21A2DFE8F4443EC4B416170B103302FF9.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/M_Master_2.uasset'
+[2025.09.02-21.11.09:440][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_1_A] ([1] browsable assets)...
+[2025.09.02-21.11.09:440][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_1_A]
+[2025.09.02-21.11.09:449][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_1_A
+[2025.09.02-21.11.09:449][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/MI_Box_1_A98489674411B392E661845A1DC577AA3.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/MI_Box_1_A.uasset'
+[2025.09.02-21.11.09:450][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_1_B] ([1] browsable assets)...
+[2025.09.02-21.11.09:450][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_1_B]
+[2025.09.02-21.11.09:458][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_1_B
+[2025.09.02-21.11.09:458][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/MI_Box_1_BC06595CD4523500DDEF9EFB538465B5A.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/MI_Box_1_B.uasset'
+[2025.09.02-21.11.09:459][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_2] ([1] browsable assets)...
+[2025.09.02-21.11.09:459][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_2]
+[2025.09.02-21.11.09:467][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_2
+[2025.09.02-21.11.09:467][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/MI_Box_2366B992D4CC6AB204A9158868E684077.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/MI_Box_2.uasset'
+[2025.09.02-21.11.09:468][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_3] ([1] browsable assets)...
+[2025.09.02-21.11.09:468][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_3]
+[2025.09.02-21.11.09:476][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_3
+[2025.09.02-21.11.09:476][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/MI_Box_31EF882AF4E52AF6C5C0AB3B5F522FDDD.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/MI_Box_3.uasset'
+[2025.09.02-21.11.09:477][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_4] ([1] browsable assets)...
+[2025.09.02-21.11.09:477][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_4]
+[2025.09.02-21.11.09:484][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_4
+[2025.09.02-21.11.09:484][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/MI_Box_40E5C2DFC4AC2A2B2B3547DA806BB823A.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/MI_Box_4.uasset'
+[2025.09.02-21.11.09:486][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_6] ([1] browsable assets)...
+[2025.09.02-21.11.09:486][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_6]
+[2025.09.02-21.11.09:493][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_6
+[2025.09.02-21.11.09:493][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/MI_Box_6B2EF3FF14334C5F7F8576EBEA900280F.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/MI_Box_6.uasset'
+[2025.09.02-21.11.09:495][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_8] ([1] browsable assets)...
+[2025.09.02-21.11.09:495][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_8]
+[2025.09.02-21.11.09:504][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_8
+[2025.09.02-21.11.09:504][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/MI_Box_83B70EDB6458F8B25CDE42190AFD478DE.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/MI_Box_8.uasset'
+[2025.09.02-21.11.09:505][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_9] ([1] browsable assets)...
+[2025.09.02-21.11.09:505][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/MI_Box_9]
+[2025.09.02-21.11.09:512][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_9
+[2025.09.02-21.11.09:512][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/MI_Box_9BCC492A142C87241A8BD0892BFE5461E.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/MI_Box_9.uasset'
+[2025.09.02-21.11.09:514][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/MI_Floor] ([1] browsable assets)...
+[2025.09.02-21.11.09:514][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/MI_Floor]
+[2025.09.02-21.11.09:521][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/MI_Floor
+[2025.09.02-21.11.09:521][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/MI_FloorD814BD3A4A96992FEB548EB853EA2BA4.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/MI_Floor.uasset'
+[2025.09.02-21.11.09:522][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Emissive] ([1] browsable assets)...
+[2025.09.02-21.11.09:522][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Emissive]
+[2025.09.02-21.11.09:716][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Emissive
+[2025.09.02-21.11.09:716][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_1_A_EmissiveEF71A38E48A2D138147AF68C933CA7CD.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Emissive.uasset'
+[2025.09.02-21.11.09:717][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Normal] ([1] browsable assets)...
+[2025.09.02-21.11.09:717][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Normal]
+[2025.09.02-21.11.09:946][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Normal
+[2025.09.02-21.11.09:946][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_1_A_NormalD0846BD94318DF005BE5FB85E90C7287.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Normal.uasset'
+[2025.09.02-21.11.09:948][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Roughness] ([1] browsable assets)...
+[2025.09.02-21.11.09:948][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Roughness]
+[2025.09.02-21.11.10:006][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Roughness
+[2025.09.02-21.11.10:006][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_1_A_Roughness74EB20754D6027BA03A8208F9F4E8CA0.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Roughness.uasset'
+[2025.09.02-21.11.10:008][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Metallic] ([1] browsable assets)...
+[2025.09.02-21.11.10:008][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Metallic]
+[2025.09.02-21.11.10:060][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Metallic
+[2025.09.02-21.11.10:060][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_1_B_MetallicD8F9835E4EAC3E8E4BFB79B52E6DB3A5.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Metallic.uasset'
+[2025.09.02-21.11.10:062][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Normal] ([1] browsable assets)...
+[2025.09.02-21.11.10:062][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Normal]
+[2025.09.02-21.11.10:302][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Normal
+[2025.09.02-21.11.10:302][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_1_B_Normal9FA7CC2A488B86C16FB6388A3C4F7153.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Normal.uasset'
+[2025.09.02-21.11.10:303][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Roughness] ([1] browsable assets)...
+[2025.09.02-21.11.10:303][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Roughness]
+[2025.09.02-21.11.10:352][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Roughness
+[2025.09.02-21.11.10:352][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_1_B_Roughness9C1D9E33401D38845B772BAB6426A7B4.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Roughness.uasset'
+[2025.09.02-21.11.10:354][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_BaseColor] ([1] browsable assets)...
+[2025.09.02-21.11.10:354][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_BaseColor]
+[2025.09.02-21.11.10:561][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_BaseColor
+[2025.09.02-21.11.10:561][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_1_BaseColor75BD65E54B3F705C4D0A018A2231B2D0.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_BaseColor.uasset'
+[2025.09.02-21.11.10:562][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_BaseColor] ([1] browsable assets)...
+[2025.09.02-21.11.10:562][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_BaseColor]
+[2025.09.02-21.11.10:757][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_BaseColor
+[2025.09.02-21.11.10:758][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_2_BaseColor8109B26A4C46E6F3620C52942E555435.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_BaseColor.uasset'
+[2025.09.02-21.11.10:759][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Emissive] ([1] browsable assets)...
+[2025.09.02-21.11.10:759][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Emissive]
+[2025.09.02-21.11.10:954][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Emissive
+[2025.09.02-21.11.10:954][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_2_Emissive85D08334494704E510A17FB6E6242949.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Emissive.uasset'
+[2025.09.02-21.11.10:957][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Metallic] ([1] browsable assets)...
+[2025.09.02-21.11.10:957][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Metallic]
+[2025.09.02-21.11.11:014][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Metallic
+[2025.09.02-21.11.11:015][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_2_MetallicCD6367014ADDB8BA177E8096C7163C2C.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Metallic.uasset'
+[2025.09.02-21.11.11:016][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Normal] ([1] browsable assets)...
+[2025.09.02-21.11.11:016][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Normal]
+[2025.09.02-21.11.11:222][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Normal
+[2025.09.02-21.11.11:222][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_2_Normal077C46DA49D2F62FEBA449846B5D83EE.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Normal.uasset'
+[2025.09.02-21.11.11:224][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Roughness] ([1] browsable assets)...
+[2025.09.02-21.11.11:224][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Roughness]
+[2025.09.02-21.11.11:274][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Roughness
+[2025.09.02-21.11.11:275][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_2_RoughnessC249036149B57C70C4CB268334AD67DF.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Roughness.uasset'
+[2025.09.02-21.11.11:276][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_BaseColor] ([1] browsable assets)...
+[2025.09.02-21.11.11:276][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_BaseColor]
+[2025.09.02-21.11.11:491][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_BaseColor
+[2025.09.02-21.11.11:491][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_3_BaseColorFA4FE2EB4AFCC0ADCFF01AB9578C5D48.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_BaseColor.uasset'
+[2025.09.02-21.11.11:492][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Emissive] ([1] browsable assets)...
+[2025.09.02-21.11.11:492][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Emissive]
+[2025.09.02-21.11.11:663][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Emissive
+[2025.09.02-21.11.11:663][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_3_Emissive01328B304C1816FE9CD7F19ECC0306A5.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Emissive.uasset'
+[2025.09.02-21.11.11:664][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Metallic] ([1] browsable assets)...
+[2025.09.02-21.11.11:664][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Metallic]
+[2025.09.02-21.11.11:730][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Metallic
+[2025.09.02-21.11.11:730][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_3_Metallic70FC9F98450E6AAC8924DCBF8873EFB2.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Metallic.uasset'
+[2025.09.02-21.11.11:732][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Normal] ([1] browsable assets)...
+[2025.09.02-21.11.11:732][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Normal]
+[2025.09.02-21.11.11:994][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Normal
+[2025.09.02-21.11.11:995][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_3_Normal9343D6234685677F0B96CB847C3AE758.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Normal.uasset'
+[2025.09.02-21.11.11:996][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Roughness] ([1] browsable assets)...
+[2025.09.02-21.11.11:996][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Roughness]
+[2025.09.02-21.11.12:066][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Roughness
+[2025.09.02-21.11.12:066][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_3_Roughness16DA3A004D23A52C6F43A4A06AE7B9F0.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Roughness.uasset'
+[2025.09.02-21.11.12:068][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_BaseColor] ([1] browsable assets)...
+[2025.09.02-21.11.12:068][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_BaseColor]
+[2025.09.02-21.11.12:282][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_BaseColor
+[2025.09.02-21.11.12:282][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_4_BaseColor2D682AFF4065AF810FEC33AB7C608527.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_BaseColor.uasset'
+[2025.09.02-21.11.12:285][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Emissive] ([1] browsable assets)...
+[2025.09.02-21.11.12:285][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Emissive]
+[2025.09.02-21.11.12:491][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Emissive
+[2025.09.02-21.11.12:491][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_4_EmissiveA5F501BB45015622D635B1BDBB17FCA2.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Emissive.uasset'
+[2025.09.02-21.11.12:493][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Metallic] ([1] browsable assets)...
+[2025.09.02-21.11.12:493][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Metallic]
+[2025.09.02-21.11.12:554][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Metallic
+[2025.09.02-21.11.12:555][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_4_MetallicB74C7E404777F8B4D9F9A3BFCC3AD114.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Metallic.uasset'
+[2025.09.02-21.11.12:556][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Normal] ([1] browsable assets)...
+[2025.09.02-21.11.12:556][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Normal]
+[2025.09.02-21.11.12:790][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Normal
+[2025.09.02-21.11.12:790][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_4_Normal1FE374534AC4DED1ED6134858BA262B8.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Normal.uasset'
+[2025.09.02-21.11.12:792][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Roughness] ([1] browsable assets)...
+[2025.09.02-21.11.12:792][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Roughness]
+[2025.09.02-21.11.12:855][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Roughness
+[2025.09.02-21.11.12:855][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_4_RoughnessC4737C2B4E3A71128EB22B85D2EF2BE0.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Roughness.uasset'
+[2025.09.02-21.11.12:856][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Roughness] ([1] browsable assets)...
+[2025.09.02-21.11.12:857][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Roughness]
+[2025.09.02-21.11.12:914][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Roughness
+[2025.09.02-21.11.12:914][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_9_RoughnessBCB1867F437EBB250DFEFCB96C76F20F.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Roughness.uasset'
+[2025.09.02-21.11.12:916][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Normal] ([1] browsable assets)...
+[2025.09.02-21.11.12:916][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Normal]
+[2025.09.02-21.11.13:161][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Normal
+[2025.09.02-21.11.13:161][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_9_Normal6F2BB66B40140C65B7D7EBBF1A72378E.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Normal.uasset'
+[2025.09.02-21.11.13:163][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Emissive] ([1] browsable assets)...
+[2025.09.02-21.11.13:163][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Emissive]
+[2025.09.02-21.11.13:338][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Emissive
+[2025.09.02-21.11.13:338][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_9_Emissive7226FEC145D9C6DD2481ED8D441369C6.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Emissive.uasset'
+[2025.09.02-21.11.13:340][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_BaseColor] ([1] browsable assets)...
+[2025.09.02-21.11.13:340][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_BaseColor]
+[2025.09.02-21.11.13:524][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_BaseColor
+[2025.09.02-21.11.13:524][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_9_BaseColor6D4A77EF44FE375A3B9496AC88C437BE.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_BaseColor.uasset'
+[2025.09.02-21.11.13:526][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9__Metallic] ([1] browsable assets)...
+[2025.09.02-21.11.13:526][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9__Metallic]
+[2025.09.02-21.11.13:581][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9__Metallic
+[2025.09.02-21.11.13:581][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_9__Metallic54AAD100436EC5FD90291394D4987CAD.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9__Metallic.uasset'
+[2025.09.02-21.11.13:582][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Emissive] ([1] browsable assets)...
+[2025.09.02-21.11.13:582][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Emissive]
+[2025.09.02-21.11.13:760][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Emissive
+[2025.09.02-21.11.13:760][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_8_EmissiveF676AF0C4869EE5B20FB17A3E801612A.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Emissive.uasset'
+[2025.09.02-21.11.13:764][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_BaseColor] ([1] browsable assets)...
+[2025.09.02-21.11.13:764][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_BaseColor]
+[2025.09.02-21.11.14:078][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_BaseColor
+[2025.09.02-21.11.14:078][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_8_BaseColor9590A6804E307F987EDFF38CD246D601.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_BaseColor.uasset'
+[2025.09.02-21.11.14:079][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Roughness] ([1] browsable assets)...
+[2025.09.02-21.11.14:079][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Roughness]
+[2025.09.02-21.11.14:197][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Roughness
+[2025.09.02-21.11.14:197][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_6_Roughness73EC8084495A89F67D40FA89D05AF026.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Roughness.uasset'
+[2025.09.02-21.11.14:198][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Normal] ([1] browsable assets)...
+[2025.09.02-21.11.14:198][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Normal]
+[2025.09.02-21.11.14:564][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Normal
+[2025.09.02-21.11.14:564][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_6_NormalE70BE504470B938DF6DA9AABAC141244.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Normal.uasset'
+[2025.09.02-21.11.14:565][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Metallic] ([1] browsable assets)...
+[2025.09.02-21.11.14:565][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Metallic]
+[2025.09.02-21.11.14:654][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Metallic
+[2025.09.02-21.11.14:654][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_6_MetallicC68857D8420E418965CC038EA5064AF7.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Metallic.uasset'
+[2025.09.02-21.11.14:655][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Emissive] ([1] browsable assets)...
+[2025.09.02-21.11.14:655][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Emissive]
+[2025.09.02-21.11.14:827][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Emissive
+[2025.09.02-21.11.14:827][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_6_EmissiveF3798175461A74CEC0B2F8A0A97AB5BE.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Emissive.uasset'
+[2025.09.02-21.11.14:888][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_BaseColor] ([1] browsable assets)...
+[2025.09.02-21.11.14:889][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_BaseColor]
+[2025.09.02-21.11.15:122][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_BaseColor
+[2025.09.02-21.11.15:122][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T_Box_6_BaseColor67E656764015535CB2508F84C8E6056B.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_BaseColor.uasset'
+[2025.09.02-21.11.15:124][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_4] ([1] browsable assets)...
+[2025.09.02-21.11.15:124][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_4]
+[2025.09.02-21.11.15:240][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Models/SM_Box_4
+[2025.09.02-21.11.15:240][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SM_Box_4A530CD1F4ADCFC1176945BB620267BBB.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Models/SM_Box_4.uasset'
+[2025.09.02-21.11.15:242][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_6] ([1] browsable assets)...
+[2025.09.02-21.11.15:242][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_6]
+[2025.09.02-21.11.15:260][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Models/SM_Box_6
+[2025.09.02-21.11.15:260][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SM_Box_664FC6CD44F54D8F770DC5693B0A17B88.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Models/SM_Box_6.uasset'
+[2025.09.02-21.11.15:355][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_8] ([1] browsable assets)...
+[2025.09.02-21.11.15:355][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_8]
+[2025.09.02-21.11.15:376][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Models/SM_Box_8
+[2025.09.02-21.11.15:376][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SM_Box_8BCDBB0C24F6AB16EE3D91BA16FE7E954.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Models/SM_Box_8.uasset'
+[2025.09.02-21.11.15:377][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_9] ([1] browsable assets)...
+[2025.09.02-21.11.15:377][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_9]
+[2025.09.02-21.11.15:387][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Models/SM_Box_9
+[2025.09.02-21.11.15:387][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SM_Box_9A9FB093C4864722C970EBA9D6F0D55B6.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Models/SM_Box_9.uasset'
+[2025.09.02-21.11.15:388][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_3] ([1] browsable assets)...
+[2025.09.02-21.11.15:388][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_3]
+[2025.09.02-21.11.15:414][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Models/SM_Box_3
+[2025.09.02-21.11.15:414][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SM_Box_375948E4346558D9E23E52387058B8910.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Models/SM_Box_3.uasset'
+[2025.09.02-21.11.15:415][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_2] ([1] browsable assets)...
+[2025.09.02-21.11.15:416][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_2]
+[2025.09.02-21.11.15:435][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Models/SM_Box_2
+[2025.09.02-21.11.15:435][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SM_Box_2072C4F6C4D7A66614EDA96AC74369515.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Models/SM_Box_2.uasset'
+[2025.09.02-21.11.15:437][793]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_1] ([1] browsable assets)...
+[2025.09.02-21.11.15:437][793]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTaks2/SciFi_Props/Models/SM_Box_1]
+[2025.09.02-21.11.15:499][793]LogSavePackage: Moving output files for package: /Game/IceTaks2/SciFi_Props/Models/SM_Box_1
+[2025.09.02-21.11.15:499][793]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SM_Box_15678DE004AA0A405DD89548E9350E73E.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTaks2/SciFi_Props/Models/SM_Box_1.uasset'
+[2025.09.02-21.11.15:501][793]LogFileHelpers: InternalPromptForCheckoutAndSave took 9.17 sec (total: 9.52 sec)
+[2025.09.02-21.11.17:004][793]LogTexture: Display: Building textures: /Game/IceTaks2/SciFi_Props/Maps/Lvl_Showroom_BuiltData.Lvl_Showroom_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.416656 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.17:004][793]LogTexture: Display: Building textures: /Game/IceTaks2/SciFi_Props/Maps/Lvl_Showroom_BuiltData.Lvl_Showroom_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 31.166582 MB), EncodeSpeed: Fast
+[2025.09.02-21.11.17:037][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2025.09.02-21.11.17:075][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.09.02-21.11.17:107][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.09.02-21.11.17:240][793]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.09.02-21.11.17:240][793]LogContentValidation: Display: Starting to validate 74 assets
+[2025.09.02-21.11.17:240][793]LogContentValidation: Enabled validators:
+[2025.09.02-21.11.17:240][793]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.02-21.11.17:240][793]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.02-21.11.17:240][793]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.02-21.11.17:240][793]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.02-21.11.17:240][793]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.02-21.11.17:240][793]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.02-21.11.17:240][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Maps/Lvl_Showroom Validating asset
+[2025.09.02-21.11.17:240][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Maps/Lvl_Showroom_BuiltData Validating asset
+[2025.09.02-21.11.17:240][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Normal Validating asset
+[2025.09.02-21.11.17:241][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Models/SM_Box_5 Validating asset
+[2025.09.02-21.11.17:241][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_5 Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/M_Master Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Roughness Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Normal Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Metallic Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Roughness Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Normal Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Metallic Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_Emissive Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_5_BaseColor Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_BaseColor Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Metallic Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Metallic Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Emissive Validating asset
+[2025.09.02-21.11.17:242][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_BaseColor Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Models/SM_Box_7 Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_7 Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_7_Roughness Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/M_Floor Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/M_Master_2 Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_1_A Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_1_B Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_2 Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_3 Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_4 Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_6 Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_8 Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/MI_Box_9 Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/MI_Floor Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Emissive Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Normal Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_A_Roughness Validating asset
+[2025.09.02-21.11.17:244][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Metallic Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Normal Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_B_Roughness Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_1_BaseColor Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_BaseColor Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Emissive Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Metallic Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Normal Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_2_Roughness Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_BaseColor Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Emissive Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Metallic Validating asset
+[2025.09.02-21.11.17:245][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Normal Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_3_Roughness Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_BaseColor Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Emissive Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Metallic Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Normal Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_4_Roughness Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Roughness Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Normal Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_Emissive Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9_BaseColor Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_9__Metallic Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_Emissive Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_8_BaseColor Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Roughness Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Normal Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Metallic Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_Emissive Validating asset
+[2025.09.02-21.11.17:246][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Materials/Textures/T_Box_6_BaseColor Validating asset
+[2025.09.02-21.11.17:250][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Models/SM_Box_4 Validating asset
+[2025.09.02-21.11.17:254][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Models/SM_Box_6 Validating asset
+[2025.09.02-21.11.17:259][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Models/SM_Box_8 Validating asset
+[2025.09.02-21.11.17:260][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Models/SM_Box_9 Validating asset
+[2025.09.02-21.11.17:267][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Models/SM_Box_3 Validating asset
+[2025.09.02-21.11.17:272][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Models/SM_Box_2 Validating asset
+[2025.09.02-21.11.17:287][793]AssetCheck: /Game/IceTaks2/SciFi_Props/Models/SM_Box_1 Validating asset
+[2025.09.02-21.11.17:394][793]LogAutomationController: Ignoring very large delta of 22.79 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.02-21.11.17:394][793]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5884.690430
+[2025.09.02-21.11.17:399][793]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.02-21.11.18:330][836]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.02-21.11.18:330][837]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5885.606934, Update Interval: 338.330627
+[2025.09.02-21.11.41:457][ 67]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.02-21.11.41:521][ 67]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.02-21.11.41:528][ 67]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.02-21.11.41:531][ 67]LogAutomationController: Ignoring very large delta of 13.13 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.02-21.11.41:540][ 68]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.02-21.11.48:404][473]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_RotatingPlat
+[2025.09.02-21.11.48:471][473]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.02-21.11.54:363][594]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/IceTaks2/BP_RotatingPlat.BP_RotatingPlat
+[2025.09.02-21.11.54:366][594]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.09.02-21.12.06:997][209]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: ================================================
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Total job queries 460, among them cache hits 31 (6.74%), DDC hits 341 (74.13%), Duplicates 70 (15.22%)
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Tracking 359 distinct input hashes that result in 258 distinct outputs (71.87%)
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: RAM used: 3,40 MiB of 819,20 MiB budget. Usage: 0.42%
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Shaders Compiled: 18
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Jobs assigned 18, completed 18 (100%)
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Average time worker was idle: 2842.36 s
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.05 s
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Job execution time: average 2.31 s, max 3.83 s
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Job life time (pending + execution): average 2.35 s, max 3.88
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Shader code size: total 141,527 KiB, numShaders 18, average 7,862 KiB, min 4,496 KiB, max 12,246 KiB
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.67 s
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Jobs were issued in 18 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Average processing rate: 2.08 jobs/sec
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Total thread time: 18,955 s
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Total thread preprocess time: 9,276 s
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Percentage time preprocessing: 48.94%
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Effective parallelization: 2.19 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.273182
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 1.77 sec, max 1.99 sec, min 1.36 sec)
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 1.09 sec, max 1.19 sec, min 0.79 sec)
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.98 sec, max 0.98 sec, min 0.98 sec)
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.87 sec, max 0.98 sec, min 0.62 sec)
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    3 times, average 0.78 sec, max 0.87 sec, min 0.63 sec)
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.83% of total time (compiled    5 times, average 1.09 sec, max 1.19 sec, min 0.79 sec)
+[2025.09.02-21.12.21:727][927]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 27.96% of total time (compiled    3 times, average 1.77 sec, max 1.99 sec, min 1.36 sec)
+[2025.09.02-21.12.21:728][927]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 18.32% of total time (compiled    4 times, average 0.87 sec, max 0.98 sec, min 0.62 sec)
+[2025.09.02-21.12.21:728][927]LogShaderCompilers: Display:                                                 FLumenCardPS - 12.29% of total time (compiled    3 times, average 0.78 sec, max 0.87 sec, min 0.63 sec)
+[2025.09.02-21.12.21:728][927]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.43% of total time (compiled    2 times, average 0.70 sec, max 0.81 sec, min 0.60 sec)
+[2025.09.02-21.12.21:728][927]LogShaderCompilers: Display: === Material stats ===
+[2025.09.02-21.12.21:728][927]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.02-21.12.21:728][927]LogShaderCompilers: Display: Materials Translated:    145
+[2025.09.02-21.12.21:728][927]LogShaderCompilers: Display: Material Total Translate Time: 0.14 s
+[2025.09.02-21.12.21:728][927]LogShaderCompilers: Display: Material Translation Only: 0.05 s (32%)
+[2025.09.02-21.12.21:728][927]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.02-21.12.21:728][927]LogShaderCompilers: Display: Material Cache Hits: 17 (12%)
+[2025.09.02-21.12.21:728][927]LogShaderCompilers: Display: ================================================
+[2025.09.02-21.17.49:905][493]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6277.190918
+[2025.09.02-21.17.50:905][496]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.02-21.17.50:905][496]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6277.858398, Update Interval: 321.597961
