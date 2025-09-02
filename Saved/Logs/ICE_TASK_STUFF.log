@@ -2694,3 +2694,98 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2025.09.02-21.36.09:054][888]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7376.332031
 [2025.09.02-21.36.10:054][891]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.09.02-21.36.10:054][891]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7376.999512, Update Interval: 326.384460
+[2025.09.02-21.41.06:901][338]LogSlate: Window 'BP_RotatingPlat' being destroyed
+[2025.09.02-21.41.06:913][338]LogSlate: Window 'BP_RotatingPlat' being destroyed
+[2025.09.02-21.41.06:918][338]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.09.02-21.41.06:918][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.02-21.41.06:997][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.09.02-21.41.15:293][813]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.09.02-21.41.15:310][813]LogContentBrowser: Creating deferred item: NewFolder
+[2025.09.02-21.41.15:330][814]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.09.02-21.41.20:301][113]LogContentBrowser: Attempting asset rename: NewFolder -> IceTask3
+[2025.09.02-21.41.20:301][113]LogContentBrowser: End creating deferred item NewFolder
+[2025.09.02-21.41.53:225][ 12]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.02-21.41.53:236][ 12]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.02-21.41.53:244][ 12]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.02-21.41.53:246][ 12]LogAutomationController: Ignoring very large delta of 2.10 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.02-21.41.53:275][ 14]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.02-21.42.08:030][895]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_GravityFieldEmitter
+[2025.09.02-21.42.08:040][895]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.02-21.42.09:353][968]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/IceTask3/BP_GravityFieldEmitter.BP_GravityFieldEmitter
+[2025.09.02-21.42.09:353][968]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.09.02-21.42.31:143][127]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7758.450195
+[2025.09.02-21.42.32:148][130]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.02-21.42.32:148][130]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7759.118164, Update Interval: 319.774170
+[2025.09.02-21.42.34:589][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.09.02-21.42.34:592][162]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.055
+[2025.09.02-21.42.34:593][162]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTask3/BP_GravityFieldEmitter] ([2] browsable assets)...
+[2025.09.02-21.42.34:593][162]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTask3/BP_GravityFieldEmitter]
+[2025.09.02-21.42.34:608][162]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/IceTask3/BP_GravityFieldEmitter_Auto5
+[2025.09.02-21.42.34:608][162]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/BP_GravityFieldEmitter_Auto528376CEE428C07338FCEB39EFD52D07D.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Autosaves/Game/IceTask3/BP_GravityFieldEmitter_Auto5.uasset'
+[2025.09.02-21.42.34:609][162]LogFileHelpers: Auto-saving content packages took 0.017
+[2025.09.02-21.48.48:321][874]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8135.617676
+[2025.09.02-21.48.48:659][894]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.02-21.48.48:659][894]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8135.937988, Update Interval: 327.061981
+[2025.09.02-21.48.51:716][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2025.09.02-21.48.52:840][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.02-21.48.52:882][ 94]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IceTask3/BP_GravityFieldEmitter] ([2] browsable assets)...
+[2025.09.02-21.48.52:882][ 94]OBJ SavePackage: Finished generating thumbnails for package [/Game/IceTask3/BP_GravityFieldEmitter]
+[2025.09.02-21.48.52:882][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IceTask3/BP_GravityFieldEmitter" FILE="../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTask3/BP_GravityFieldEmitter.uasset" SILENT=true
+[2025.09.02-21.48.52:901][ 94]LogSavePackage: Moving output files for package: /Game/IceTask3/BP_GravityFieldEmitter
+[2025.09.02-21.48.52:901][ 94]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/BP_GravityFieldEmitter687BB2764ADD1C3C10E419A6CDAADD36.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/IceTask3/BP_GravityFieldEmitter.uasset'
+[2025.09.02-21.48.52:921][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.877 ms (total: 9.69 sec)
+[2025.09.02-21.48.52:977][ 94]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.02-21.48.52:977][ 94]LogContentValidation: Enabled validators:
+[2025.09.02-21.48.52:977][ 94]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.02-21.48.52:977][ 94]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.02-21.48.52:977][ 94]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.02-21.48.52:977][ 94]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.02-21.48.52:977][ 94]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.02-21.48.52:977][ 94]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.02-21.48.52:977][ 94]AssetCheck: /Game/IceTask3/BP_GravityFieldEmitter Validating asset
+[2025.09.02-21.48.53:020][ 94]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.02-21.48.57:513][361]LogSlate: Window 'BP_GravityFieldEmitter' being destroyed
+[2025.09.02-21.48.57:521][361]LogSlate: Window 'BP_GravityFieldEmitter' being destroyed
+[2025.09.02-21.48.57:526][361]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.09.02-21.48.57:526][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.02-21.48.57:597][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.09.02-21.49.03:714][549]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.02-21.49.03:829][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.09.02-21.49.03:868][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.09.02-21.49.03:907][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.09.02-21.49.03:991][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.09.02-21.49.04:014][549]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Lvl_ThirdPerson
+[2025.09.02-21.49.04:016][549]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/Lvl_ThirdPerson45A29AEC44FDA07755E7EBA472F52605.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/ThirdPerson/Lvl_ThirdPerson.umap'
+[2025.09.02-21.49.04:036][549]LogFileHelpers: Saving map 'Lvl_ThirdPerson' took 0.127
+[2025.09.02-21.49.04:052][549]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/YR/T68ANS0IBH4PSS4AHGVVIK
+[2025.09.02-21.49.04:052][549]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/T68ANS0IBH4PSS4AHGVVIK0EC4121D4E50239503E090B5AC62BB5C.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/YR/T68ANS0IBH4PSS4AHGVVIK.uasset'
+[2025.09.02-21.49.04:070][549]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/47/28FWBLKHJLA9X1A1X7KY31
+[2025.09.02-21.49.04:070][549]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/28FWBLKHJLA9X1A1X7KY31B148A6064DA1CB092F7B21B3C44AFCE2.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/47/28FWBLKHJLA9X1A1X7KY31.uasset'
+[2025.09.02-21.49.04:084][549]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/ZM/YK1YIPYPPH5X7VMLYIDC1L
+[2025.09.02-21.49.04:084][549]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/YK1YIPYPPH5X7VMLYIDC1L877AB84344DA9DCB322447A8F9BF1397.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/ZM/YK1YIPYPPH5X7VMLYIDC1L.uasset'
+[2025.09.02-21.49.04:096][549]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/58/9CDGAMSVPNYZIY9OAT0EY5
+[2025.09.02-21.49.04:096][549]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/9CDGAMSVPNYZIY9OAT0EY58C60CD0C4F51C440FD8D828C7542BD36.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/58/9CDGAMSVPNYZIY9OAT0EY5.uasset'
+[2025.09.02-21.49.04:108][549]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/1H/ONOYOUYM9ACL1WRLYKR3VZ
+[2025.09.02-21.49.04:108][549]LogSavePackage: Moving '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/ONOYOUYM9ACL1WRLYKR3VZ8BF98DED4DA240700AD950B6B9ED4A26.tmp' to '../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/1H/ONOYOUYM9ACL1WRLYKR3VZ.uasset'
+[2025.09.02-21.49.04:127][549]LogFileHelpers: InternalPromptForCheckoutAndSave took 412.848 ms (total: 10.1 sec)
+[2025.09.02-21.49.04:179][549]LogContentValidation: Display: Starting to validate 6 assets
+[2025.09.02-21.49.04:179][549]LogContentValidation: Enabled validators:
+[2025.09.02-21.49.04:179][549]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.02-21.49.04:179][549]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.02-21.49.04:179][549]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.02-21.49.04:179][549]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.02-21.49.04:179][549]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.02-21.49.04:179][549]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.02-21.49.04:180][549]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2025.09.02-21.49.04:225][549]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/abhij/Uni Work C/Coding/Unreal/ICE_TASK_STUFF/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.02-21.49.10:091][892]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/IceTask3/BP_GravityFieldEmitter.BP_GravityFieldEmitter_C
+[2025.09.02-21.49.10:092][892]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/IceTask3/BP_GravityFieldEmitter.BP_GravityFieldEmitter_C
+[2025.09.02-21.49.10:093][892]LogActorFactory: Actor Factory spawned Blueprint /Game/IceTask3/BP_GravityFieldEmitter.BP_GravityFieldEmitter as actor: BP_GravityFieldEmitter_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_GravityFieldEmitter_C_0
+[2025.09.02-21.49.10:095][892]LogActorFactory: Actor Factory spawned Blueprint /Game/IceTask3/BP_GravityFieldEmitter.BP_GravityFieldEmitter as actor: BP_GravityFieldEmitter_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_GravityFieldEmitter_C_0
+[2025.09.02-21.49.10:102][892]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.09.02-21.49.11:960][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.09.02-21.49.11:962][999]LogEditorActor: Deleted 0 Actors (0.032 secs)
+[2025.09.02-21.49.11:968][999]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/IceTask3/BP_GravityFieldEmitter.BP_GravityFieldEmitter_C
+[2025.09.02-21.49.11:968][999]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/IceTask3/BP_GravityFieldEmitter.BP_GravityFieldEmitter_C
+[2025.09.02-21.49.11:971][999]LogActorFactory: Actor Factory spawned Blueprint /Game/IceTask3/BP_GravityFieldEmitter.BP_GravityFieldEmitter as actor: BP_GravityFieldEmitter_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_GravityFieldEmitter_C_UAID_047C16A932E3458B02_1620103429
+[2025.09.02-21.49.11:973][999]LogActorFactory: Actor Factory spawned Blueprint /Game/IceTask3/BP_GravityFieldEmitter.BP_GravityFieldEmitter as actor: BP_GravityFieldEmitter_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_GravityFieldEmitter_C_UAID_047C16A932E3458B02_1620103429
